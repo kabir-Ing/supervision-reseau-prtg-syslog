@@ -2,13 +2,12 @@
 
 ![Supervision](https://img.shields.io/badge/Supervision-PRTG-0078D4?style=flat-square) ![Journalisation](https://img.shields.io/badge/Logs-Syslog-0891B2?style=flat-square) ![OS](https://img.shields.io/badge/Syst%C3%A8mes-Windows_Server-23395B?style=flat-square)
 
-> **Projet technique documenté — réseaux, systèmes et supervision.** Ce dépôt présente un travail réalisé précédemment et restructuré pour en rendre la démarche et les preuves accessibles.
 
 ## 1. Résumé du projet
 
 Ce projet porte sur le déploiement, dans un environnement de machines Windows virtualisées, d'une solution de **supervision de postes et de services** avec **PRTG Network Monitor** et d'une solution de **centralisation/consultation des événements Windows** utilisant **EVTSYS** et **Visual Syslog**.
 
-L'objectif était d'obtenir une meilleure visibilité sur l'état des équipements (disponibilité, interfaces, charge processeur) et de consulter des journaux système depuis un outil centralisé.
+L'objectif est  d'obtenir une meilleure visibilité sur l'état des équipements (disponibilité, interfaces, charge processeur) et de consulter des journaux système depuis un outil centralisé.
 
 ## 2. Problématique
 
@@ -26,7 +25,7 @@ La maintenance d'un parc informatique nécessite de détecter les indisponibilit
 | **EVTSYS** | Transmission d'événements Windows au collecteur Syslog |
 | **Syslog** | Transport/centralisation des événements |
 
-**Architecture logique synthétisée à partir du manuel :**
+**Architecture  :**
 
 ```text
 [Machine cliente Windows] -- SNMP --> [PRTG sur Windows Server]
@@ -34,7 +33,6 @@ La maintenance d'un parc informatique nécessite de détecter les indisponibilit
           +-- EVTSYS / Syslog --> [Visual Syslog]
 ```
 
-> Cette représentation est une synthèse fonctionnelle et ne remplace pas la topologie d'origine. Les adresses, versions exactes et paramètres doivent être vérifiés avant publication.
 
 ## 4. Démarche de réalisation
 
