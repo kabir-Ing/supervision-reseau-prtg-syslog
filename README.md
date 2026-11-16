@@ -25,7 +25,7 @@ La maintenance d'un parc informatique nécessite de détecter les indisponibilit
 | **EVTSYS** | Transmission d'événements Windows au collecteur Syslog |
 | **Syslog** | Transport/centralisation des événements |
 
-**Architecture  :**
+**Architecture logique  :**
 
 ```text
 [Machine cliente Windows] -- SNMP --> [PRTG sur Windows Server]
