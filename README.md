@@ -66,5 +66,4 @@ Le manuel technique présente le déploiement, les configurations et les capture
 
 - Configurer et tester des notifications de supervision.
 - Étudier les options de sécurisation des échanges SNMP et Syslog.
-- Détailler l’architecture et les paramètres réseau du laboratoire.
-- Ajouter des captures d’écran représentatives des résultats.
+
