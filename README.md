@@ -59,7 +59,7 @@ Le rapport présente notamment :
 Le manuel de déploiement contient les configurations
 et les captures d'écran réalisées pendant le projet.
 
-[📘 Consulter le manuel technique](documentation/manuel-prtg-syslog.pdf)
+[📘 Consulter le manuel technique](manuel-prtg-syslog.pdf)
 
 ## 📚 Compétences mobilisées
 
